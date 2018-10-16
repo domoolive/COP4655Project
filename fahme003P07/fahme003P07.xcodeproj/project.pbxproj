@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6AE6D6EC21756E6E00C5EC37 /* RandomNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AE6D6EB21756E6E00C5EC37 /* RandomNumber.swift */; };
 		CC5327002174608A000397AD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC5326FF2174608A000397AD /* AppDelegate.swift */; };
 		CC5327022174608A000397AD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC5327012174608A000397AD /* ViewController.swift */; };
 		CC5327052174608A000397AD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC5327032174608A000397AD /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6AE6D6EB21756E6E00C5EC37 /* RandomNumber.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RandomNumber.swift; sourceTree = "<group>"; };
 		CC5326FC2174608A000397AD /* fahme003P07.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = fahme003P07.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC5326FF2174608A000397AD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CC5327012174608A000397AD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -56,6 +58,7 @@
 			children = (
 				CC5326FF2174608A000397AD /* AppDelegate.swift */,
 				CC5327012174608A000397AD /* ViewController.swift */,
+				6AE6D6EB21756E6E00C5EC37 /* RandomNumber.swift */,
 				CC5327032174608A000397AD /* Main.storyboard */,
 				CC5327062174608A000397AD /* Assets.xcassets */,
 				CC5327082174608A000397AD /* LaunchScreen.storyboard */,
@@ -139,6 +142,7 @@
 			files = (
 				CC5327022174608A000397AD /* ViewController.swift in Sources */,
 				CC5327002174608A000397AD /* AppDelegate.swift in Sources */,
+				6AE6D6EC21756E6E00C5EC37 /* RandomNumber.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -304,6 +308,7 @@
 				CC5327102174608A000397AD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
