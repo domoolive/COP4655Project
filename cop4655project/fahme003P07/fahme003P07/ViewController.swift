@@ -14,7 +14,14 @@ class ViewController: UITableViewController {
     var myRandomNumber = RandomNumber.sharedInstance
     
     @IBAction func addNewItem(_ sender: UIButton) {
+        let newNumber = myRandomNumber.createNumber()
         
+        if let index = myRandomNumber.numberTable.index(of: newNumber)
+        {
+            let indexPath = IndexPath(row: index, section: 0)
+            
+            tableView.insertRows(at: [indexPath], with: .automatic)
+        }
     }
     
     @IBAction func toggleEditingMode(_ sender: UIButton) {

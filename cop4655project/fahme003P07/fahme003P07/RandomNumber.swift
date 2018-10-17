@@ -35,4 +35,19 @@ final class RandomNumber {
         }
     }
     
+    @discardableResult func createNumber() -> Int {
+        let newNumber = MakeRandomNumbers()
+        
+        numberTable.append(newNumber)
+        
+        return newNumber
+    }
+    
+    func removeItem(_ number: Int)
+    {
+        if let index = numberTable.index(of: number)
+        {
+            numberTable.remove(at: index)
+        }
+    }
 }
